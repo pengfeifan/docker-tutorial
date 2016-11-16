@@ -10,5 +10,5 @@ RUN tar -xvzf docker-latest.tgz
 RUN mv docker/* /usr/bin/
 
 USER jenkins
-RUN /usr/local/bin/install-plugins.sh junit git git-client ssh-slaves greenballs chucknorris
+RUN /usr/local/bin/install-plugins.sh junit git ssh-slaves greenballs chucknorris
 
